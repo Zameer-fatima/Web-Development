@@ -1,4 +1,4 @@
-/***Javascript***/
+***Javascript***
 
 1. What JavaScript can do?
 2. What Can In-Browser JavaScript Do?
