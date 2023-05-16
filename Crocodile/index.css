@@ -1,0 +1,237 @@
+body{
+    background: #2d3c47;
+  }
+  
+  .box{
+    height: 450px;
+    width: 450px;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    border: 2px transparent solid;
+  }
+  
+  .belly{
+    height: 60px;
+    width: 350px;
+    background: #DEF4C6;
+    position: absolute;
+    border-radius: 100px;
+    top: 50%;
+    left: 10%
+  }
+  
+  .back{
+    height: 30px;
+    width: 350px;
+    background: #B1CF5F;
+    position: absolute;
+    border-radius: 50px 50px 0 0;
+    top: 50%;
+    left: 10%
+  }
+  
+  .hump{
+    height: 60px;
+    width: 250px;
+    background: #B1CF5F;
+    position: absolute;
+    border-radius: 45px 50px 0 0;
+    top: 43.3%;
+    left: 10%
+  }
+  
+  .hump>div:nth-child(1){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -25%;
+    left: 18%
+  }
+  
+  .hump>div:nth-child(2){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -25%;
+    left: 31%
+  }
+  
+  .hump>div:nth-child(3){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -25%;
+    left: 44%
+  }
+  
+  .hump>div:nth-child(4){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -25%;
+    left: 57%
+  }
+  
+  .hump>div:nth-child(5){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -25%;
+    left: 70%
+  }
+  
+  .back-leg{
+    height: 30px;
+    width: 135px;
+    background: #B1CF5F;
+    position: absolute;
+    border-radius: 0 50px 0;
+    top: 56.7%;
+    left: 10%
+  }
+  
+  .back-leg>div:nth-child(1){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -50%;
+    left: 5%
+  }
+  
+  .back-leg>div:nth-child(2){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -50%;
+    left: 25%
+  }
+  
+  .back-leg>div:nth-child(3){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -50%;
+    left: 45%
+  }
+  
+  .back-leg>div:nth-child(4){
+    height: 15px;
+    width: 20px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: -50%;
+    left: 65%
+  }
+  
+  .front-leg{
+    height: 30px;
+    width: 100px;
+    background: #C5D86D;
+    position: absolute;
+    border-radius: 0 50px 0 50px;
+    top: 56.7%;
+    left: 40%
+  }
+  
+  .eye{
+    height: 40px;
+    width: 40px;
+    background: #B1CF5F;
+    position: absolute;
+    border-radius: 50px;
+    top: 43%;
+    left: 58%;
+  }
+  
+  .eye-ball{
+    height: 20px;
+    width: 20px;
+    background: #261C15;
+    position: absolute;
+    border-radius: 50px;
+    top: 25%;
+    left: 25%;
+  }
+  
+  .nose{
+    height: 20px;
+    width: 40px;
+    background: #B1CF5F;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 46%;
+    left: 72%;
+  }
+  
+  .nostril{
+    height: 12px;
+    width: 23px;
+    background: #C5D86D;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 30%;
+    left: 20%;
+  }
+  
+  .tooth-1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 13px 0 13px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 56.8%;
+    left: 65%;
+  }
+  
+  .tooth-2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 13px 0 13px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 56.8%;
+    left: 72%;
+  }
+  
+  .tooth-3{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 13px 0 13px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 56.8%;
+    left: 79%;
+  }
